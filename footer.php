@@ -1,0 +1,1 @@
+<center><div class="footer">Copywrite Harshan Lakshitha Dias.All Right Reserved.</div></center>

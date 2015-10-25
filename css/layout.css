@@ -1,0 +1,56 @@
+.headerImage{
+	padding-left:12.5%;
+}
+.siteMenu{
+	padding-left:21%;
+	padding-top:0.5%;
+}  
+.getPW{
+	padding-left:35%;  
+	padding-top:2%; 
+}  
+.myAccount{
+	padding-left:21%;
+	padding-top:1%;
+}  
+.viewUser{
+	padding-left:21%;
+	padding-top:3%;
+}  
+.homePageLogo{
+	padding-left:27%;
+	padding-top:1%;
+}
+.nonCenterForm1{
+	padding-left:38%;
+	padding-top:3%; 
+}
+.nonCenterForm2{
+	padding-left:40%;  
+}
+.signUpDes{
+	padding-left:30%;  
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+.signUpLink{
+	padding-left:53%;  
+}
+.searchForm{
+	padding-left:31%;  
+	padding-top:2%; 
+}
+#myAccountNavigationTable {
+    width: 15%;
+    float: left;
+    padding-top:5%;  
+}
+#formTable {
+    width: 60%;
+    padding-top:5%;
+    padding-left: 2%;
+}
+
+..clear {
+    clear: both;
+}

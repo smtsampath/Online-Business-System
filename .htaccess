@@ -1,0 +1,29 @@
+Options +FollowSymlinks
+RewriteEngine on     
+ 
+RewriteRule ^getPassword$ forgotPassword.php 
+RewriteRule ^index$ index.php 
+RewriteRule ^home$ mainHome.php 
+RewriteRule ^signUp$ register.php
+RewriteRule ^search$ searchUser.php
+RewriteRule ^userHome$ signedInUserHome.php 
+RewriteRule ^userProfile$ userProfileManagement.php
+RewriteRule ^userCV$ userCVManagement.php
+RewriteRule ^userProject$ userWorkingExampleManagement.php
+RewriteRule ^adminPanel$ adminArea.php 
+RewriteRule ^showUser$ viewUser.php  
+RewriteRule ^signOut$ logout.php  
+RewriteRule ^error$ error.php  
+RewriteRule ^users-(.*)$ viewUser.php?selectedSearchedUsername=$1   
+RewriteRule ^userProjects-(.*)$ userWorkingExampleManagement.php?filePathToDelete=$1   
+RewriteRule ^username-(.*)$ includes/register_function.php?username=$1  
+RewriteRule ^email-(.*)$ includes/register_function.php?email=$1   
+ 
+ErrorDocument 404 /online_business_system/error
+ErrorDocument 400 /online_business_system/error	
+ErrorDocument 403 /online_business_system/error	   
+
+<FilesMatch "^\.ht">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

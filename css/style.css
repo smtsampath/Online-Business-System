@@ -1,0 +1,144 @@
+.home{
+    background-image:url('../images/hmheaderbgrepeater.png');
+    background-repeat:repeat-x;
+    padding: 0;
+    margin: 0px;
+    background-color: White;
+}
+body {
+    background-image:url('../images/nhmheaderbgrepeater.png');
+    background-repeat:repeat-x;
+    padding: 0;
+    margin: 0px;
+    background-color: White; 
+}
+a:link {
+    color:#FFF;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0px 28px 0px 0px ; 
+}
+a:visited {
+    color:#FFF;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0px 28px 0px 0px ;
+}
+a:hover {
+    color:#CCC;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0px 28px 0px 0px ;
+}  
+a.search:link {
+    color:#000;
+    margin: 1px  ;
+}
+a.search:visited {
+    color:#000;
+    margin: 1px  ;
+}
+a.search:hover {
+    color:#666;
+    margin: 1px  ;
+} 
+a.searchR:link {
+    color:none;
+    margin: 0px  ;
+}
+a.searchR:visited {
+    color:none;
+    margin: 0px  ;
+}
+a.searchR:hover {
+    color:#CCC;
+    margin: 0px  ;
+} 
+a.signUpImageLink:link {
+    color:#f7f7f7;
+    margin: 0px  ;
+}
+a.signUpImageLink:visited {
+    color:#f7f7f7;
+    margin: 0px ;
+}
+a.signUpImageLink:hover {
+    color:#f7f7f7;
+    margin: 0px   ;
+} 
+a.imageLink:link {
+    color:#e7e7e7;
+    margin: 0px  ;
+}
+a.imageLink:visited {
+    color:#e7e7e7;
+    margin: 0px ;
+}
+a.imageLink:hover {
+    color:#e7e7e7;
+    margin: 0px   ;
+} 
+a.downloadCV:link {
+    color:#F7F7F7;
+    margin: 0px  ;
+}
+a.downloadCV:visited {
+    color:#F7F7F7;
+    margin: 0px ;
+}
+a.downloadCV:hover {
+    color:#F7F7F7;
+    margin: 0px   ;
+}
+a.errorLink:link {
+    color:#000;
+    margin: 0px  ;
+}
+a.errorLink:visited {
+    color:#000;
+    margin: 0px  ;
+}
+a.errorLink:hover {
+    color:#666;
+    margin: 0px ;
+} 
+.fontOnly{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+.fontOnly2{
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.footer{
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+}
+
+.error1{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
+.error2{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+} 
+
+
+.v_table_th{
+ font-size:13px;
+ font-weight:bold;
+ text-align: center;
+ color:#333;
+ padding:5px;
+ border: solid 1px #E0E0E0; 
+}
+.vtd {
+ font-size:13px; 
+ font-weight:lighter; 
+ font-family:Arial, Helvetica, sans-serif;
+ color:#333;
+}
