@@ -8,8 +8,8 @@ require("includes/session.php");
 redirectToHTTPS();
 
 if (isset($_POST['searchSubmit'])) {
-    $searchTxt = $_POST['searchField'];
-	$searchTerm = $_POST['searchOptions'];
+    $searchTxt = mysql_real_escape_string($_POST['searchField']);
+	$searchTerm = mysql_real_escape_string($_POST['searchOptions']);
 	
     $allUsernamesWithNoDuplicates = getSearchResults($searchTxt,$searchTerm);
 	if(isset($allUsernamesWithNoDuplicates)){
